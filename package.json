@@ -1,0 +1,26 @@
+{
+  "name": "memogram",
+  "version": "1.0.0",
+  "description": "Event photo & video gathering platform",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Single HTML deployment - no build needed'",
+    "start": "echo 'Deploy via Vercel - no local server needed'",
+    "lint": "eslint api/**/*.js",
+    "security-audit": "npm audit",
+    "test": "echo 'Tests not yet configured'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "aws-sdk": "^2.1500.0",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "vercel": "^31.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
